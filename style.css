@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  background-color: #DAA06D;
+}
+
+.TopNav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.TopNav h1 {
+  float: center;
+  display: block;
+  color: #6E260E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.Flashcards a {
+  float: center;
+  display: block;
+  color: #D27D2D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+
+
+.Affirmations a {
+  display: inline-block;
+  color: #D27D2D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+
+.Pomodoro a {
+  display: inline-block;
+  color: #D27D2D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+
+.SleepCalc a {
+  display: inline-block;
+  color: #D27D2D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+
+.bottomspace {
+  padding-bottom: 100px;
+}
+
+.my-button {
+  background-color: #DAA06D;
+  border-style: rounded;
+  color: white;
+  padding: 10px 520px 10px 520px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}

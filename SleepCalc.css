@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to right, #071a4c, #ADD8E6);
+  ;
+}
+
+.TopNav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.TopNav h1 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.description {
+  float: center;
+  display: block;
+  color: white;
+  font-size: .7rem;
+}
+
+.sleeptime {
+  font-size: 1rem;
+  color: white;
+  padding-left: 275px;
+  padding-top: 50px;
+}
+
+.waketime {
+  font-size: 1rem;
+  color: white;
+  padding-bottom: 100px;
+  padding-left: 700px;
+}
+
+.calcbutton {
+  padding-left: 275px;
+
+}
+
+#result {
+  padding-left: 275px;
+  color: white;
+}
+
+#note {
+  padding-left: 150px;
+  color: maroon;
+  text-decoration: underline;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> STUDYOVEN</title>
+  <link href="Flashcard.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class=TopNav>
+    <a class="active" href="index.html">StudyOven</a>
+    <br>
+    <br>
+    <br>
+    <h1> Flashcard Maker </h1>
+  </div>
+  <h2></h2>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <button class=newF onclick="newF()"> + </button>
+
+
+
+
+
+  <div class="flashcard-container">
+    <div class=before onclick="before()">
+      <&lt; </div>
+        <div class="FFront" id="FFront" onclick="switch1()">Front</div>
+
+        <div class="FBack" id="FBack" onclick="switch1()">Back</div>
+
+
+        <div class=after onclick="after()">
+          > &gt; </div>
+        <div class="space"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="list" id="list">
+
+
+    </div>
+
+    <div class="newcard" id="newcard"> </div>
+
+
+
+    <script src="Flashcard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #A34757;
+}
+
+.TopNav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.TopNav h1 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.description {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.cute-button1 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #A34757;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cute-button1:hover {
+  background-color: #7E3743;
+  transform: translateY(-2px);
+}
+
+.cute-button1:active {
+  background-color: #A34757;
+  transform: translateY(2px);
+}
+
+.cute-button1:focus {
+  outline: none;
+}
+
+.cute-button2 {
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 25px;
+  background-color: #93cec3;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cute-button2:hover {
+  background-color: #58b6a6;
+  transform: translateY(-2px);
+}
+
+.cute-button2:active {
+  background-color: #93cec3;
+  transform: translateY(2px);
+}
+
+.cute-button2:focus {
+  outline: none;
+}
+
+.cute-button3 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #6495ED;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cute-button3:hover {
+  background-color: #0047AB;
+  transform: translateY(-2px);
+}
+
+.cute-button3:active {
+  background-color: #6495ED;
+  transform: translateY(2px);
+}
+
+.cute-button3:focus {
+  outline: none;
+}
+
+.Ptimer {
+  padding-left: 400px;
+  font-size: 12rem;
+  color: white;
+  font-weight: bold;
+  opacity: 0.7;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> STUDYOVEN</title>
+  <link href="SleepCalc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="TopNav">
+    <a class="active" href="index.html">StudyOven</a>
+    <br>
+    <br>
+    <br>
+    <h1>Sleep Time Calculator</h1>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="description">
+    <h2>We will calculate how much sleep you will get if you sleep by a certain time and wake up by a certain time</h2>
+  </div>
+  <br>
+  <br>
+  <div class="sleeptime">
+    <label for="sleeptime">When are you sleeping?</label>
+    <input type="number" id="sleeptime" name="sleeptime" min="1" max="12" placeholder="Hour">
+    <select id="time-selection" name="time-selection">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+  </div>
+  <div class="waketime">
+    <label for="waketime">When do you have to wake up?</label>
+    <input type="number" id="waketime" name="waketime" min="1" max="12" placeholder="Hour">
+    <select id="time-selection1" name="time-selection1">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+  </div>
+  <div class="calcbutton">
+    <button id="calculate-button">Calculate Sleep Time</button>
+    <div id="result">##</div>
+    <div id="note"></div>
+  </div>
+
+
+  <script src="SleepCalc.js"></script>
+</body>
+
+</html>

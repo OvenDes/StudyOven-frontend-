@@ -1,0 +1,174 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #E5E4E2;
+}
+
+.TopNav a {
+  float: left;
+  display: block;
+  color: #6E260E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.TopNav h1 {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+
+
+.newF {
+  float: right;
+  padding: 17px;
+  border: none;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.newF:hover {
+  float: right;
+  background-color: lightblue;
+  transform: translateY(-2px);
+}
+
+.newF:active {
+  float: right;
+  background-color: blue;
+  transform: translateY(2px);
+}
+
+.newF:focus {
+  float: right;
+  outline: none;
+}
+
+.FFront {
+
+  height: 425px;
+  width: 695px;
+  background-color: white;
+  border-color: black;
+  display: block;
+  margin-left: 60px;
+}
+
+.FBack {
+
+  height: 425px;
+  width: 695px;
+  background-color: green;
+  border-color: black;
+  display: none;
+  margin-left: 60px;
+
+}
+
+.space {
+  padding-bottom: 100px;
+}
+
+
+.word {
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  background-color: blue;
+
+
+  justify-content: center;
+  position: relative;
+
+}
+
+.new_word {
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  background-color: blue;
+
+  justify-content: center;
+  position: relative;
+}
+
+.def {
+  align-items: center;
+  height: 150px;
+  width: 600px;
+  background-color: purple;
+  justify-content: center;
+  position: relative;
+  margin-top: -166px;
+  margin-left: 300px;
+
+}
+
+.new_def {
+
+  align-items: center;
+  height: 150px;
+  width: 600px;
+  background-color: purple;
+  justify-content: center;
+  position: relative;
+
+}
+
+.delete {
+  float: right;
+  text-decoration: underline;
+  color: #1E90FF;
+  cursor: pointer;
+}
+
+.space2 {
+  height: 20px;
+  width: 100px;
+}
+
+
+.flashcard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.before,
+.after {
+  font-size: 24px;
+  /* Adjust font size as needed */
+  cursor: pointer;
+  user-select: none;
+  margin: 0 10px;
+  /* Adjust margin as needed */
+}
+
+.before {
+  position: absolute;
+  left: 10px;
+}
+
+.after {
+  position: absolute;
+  right: 10px;
+}

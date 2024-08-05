@@ -1,0 +1,208 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #C8A2C8;
+}
+
+
+
+.TopNav a {
+  float: left;
+  display: block;
+  color: #4B0082;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.TopNav h1 {
+  float: center;
+  display: block;
+  color: #6E260E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+
+
+.checklist {
+  padding-left: 30px;
+  font-size: 4 rem;
+  color: #4B0082;
+}
+
+.item {
+  padding-left: 30px;
+  color: #4B0082;
+  margin-top: 20px;
+}
+
+
+input[type="text"] {
+  font-size: 15px;
+  padding: 2px;
+  border: none;
+  border-radius: 8px;
+  background-color: #C8A2C8;
+  color: #4B0082;
+  box-shadow: none;
+  transition: background-color 0.3s ease;
+}
+
+
+input[type="text"]:focus {
+  background-color: #D8BFD8;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #4B0082;
+}
+
+.newitem {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.calender {
+  margin-right: 50px;
+  width: 600px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  background: white;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+  text-align: center;
+  padding: 5px;
+  color: black;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  transition: 0.2%;
+}
+
+
+.date.active {
+  background: #4B0082;
+  color: #fff;
+}
+
+.date:hover {
+  background: #ff5869;
+  color: #fff;
+}
+
+.date.inactive {
+  color: grey;
+}
+
+.date.inactive:hover {
+  color: white;
+}
+
+.monthyear {
+  text-align: center;
+  font-weight: 600;
+  width: 150px;
+}
+
+.daytask {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  width: 300px;
+  height: 440px;
+  float: right;
+  margin-right: 40px;
+  background-color: #FFD1DC;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.event1 {
+  color: black;
+  margin: 40px;
+}
+
+.eventbox {
+  padding: 1%;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-weight: 600;
+  height: auto;
+  width: 250px;
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: #FFE4E8;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.deleteEvent {
+  margin-left: 200px;
+  color: #D9534F;
+  cursor: default;
+}
+
+.plus {
+  margin-right: 200px;
+  color: #D9534F;
+  cursor: default;
+}
